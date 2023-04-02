@@ -16,7 +16,7 @@ Compiling files:
 Running countle:
   Before running, make sure that graphSizeLimit and setSize are set correctly for graph you are running the algorithm on. GraphSizeLimit must be at least the size of your graph and setSize must be set to graphSizeLimit/64 +1.
 
-Countle can be run as
+Countle can be run in the format 
 
 ./countle -g pathToGraph [optional arguments]
 
