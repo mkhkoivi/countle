@@ -14,7 +14,7 @@ Compiling files:<br>
   Note: compile-scripts may NOT have correct paths for your installation, so you may have to set them up yourself!
 
 Running countle:<br>
-  Before running, make sure that graphSizeLimit and setSize are set correctly for graph you are running the algorithm on. GraphSizeLimit must be at least the size of your graph and setSize must be set to graphSizeLimit/64 +1.
+  Before running, make sure that graphSizeLimit and setSize are set correctly (in Globals.cpp) for graph you are running the algorithm on. GraphSizeLimit must be at least the size of your graph and setSize must be set to graphSizeLimit/64 +1. The default value of graphSizeLimit is 300.
 
 Countle can be run in the format 
 
